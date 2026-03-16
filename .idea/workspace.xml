@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e89a0b15-c34d-41a8-9bea-cfc1558e236a" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Aiva chatbot.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Conversation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/conversation1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PycharmProjects\AIVA\Screenshots" />
       <recent name="C:\Users\Dell\PycharmProjects\AIVA\frontend\src\assets" />
       <recent name="C:\Users\Dell\PycharmProjects\OpenAI Assistant\" />
       <recent name="C:\Users\Dell\PycharmProjects\OpenAI Assistant" />
