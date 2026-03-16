@@ -1,0 +1,21 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Database
+db.sqlite3
+
+# API config
+user_config.py
+
+# Node / React
+frontend/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

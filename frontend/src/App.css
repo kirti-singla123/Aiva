@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("./assets/space-bg.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+    overflow-x: hidden;   /* prevents horizontal scroll */
+
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+    overflow: visible;   /* prevents vertical overflow */
+
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 6px;
+  padding: 25px 0;
+  font-weight: 600;
+  color: #6bd6ff;
+  text-shadow: 0 0 20px #00f5ff;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 1px;
+  margin: 10px auto 0;
+  background: linear-gradient(90deg, transparent, #00f5ff, transparent);
+  box-shadow: 0 0 15px #00f5ff;
+}
+
+.main-layout {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ai-orb {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 30px;
+
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%,
+    #ff4dff,
+    #6b2bff 60%,
+    #001133
+  );
+
+  box-shadow:
+    0 0 25px #ff4dff,
+    0 0 60px #6b2bff;
+
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Orbit Rings */
+.ring {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 0, 255, 0.5);
+  top: -20px;
+  left: -20px;
+  animation: rotate 8s linear infinite;
+}
+
+.ring2 {
+  border-color: rgba(0, 255, 255, 0.5);
+  animation-duration: 12s;
+  transform: rotateX(60deg);
+}
+
+.ring3 {
+  border-color: rgba(255, 100, 255, 0.4);
+  animation-duration: 16s;
+  transform: rotateY(60deg);
+}
+
+/* Floating effect */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Rotation */
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
